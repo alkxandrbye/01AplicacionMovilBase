@@ -1,6 +1,7 @@
 import './App.css'
 import { Counter } from './components/Counter'
 import { RandomNumber } from './components/RandomNumber';
+import { TaskList } from './components/TaskList';
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
       <h1 className="text-4xl mb-5">
         React Counter
       </h1>
-      <RandomNumber />
+      <TaskList />
     </div>
   </>
   );

@@ -10,6 +10,8 @@ function App() {
       <h1 className="text-4xl mb-5">
         React Counter
       </h1>
+      <Counter/>
+      <RandomNumber/>
       <TaskList />
     </div>
   </>

@@ -1,5 +1,6 @@
 import './App.css'
 import { Counter } from './components/Counter'
+import { RandomNumber } from './components/RandomNumber';
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
       <h1 className="text-4xl mb-5">
         React Counter
       </h1>
-      <Counter />
+      <RandomNumber />
     </div>
   </>
   );
